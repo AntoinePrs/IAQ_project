@@ -6,13 +6,13 @@ import sys
 
 sgp30 = SGP30()
 
-#print("Sensor warming up, please wait...")
-#def crude_progress_bar():
-#    sys.stdout.write('.')
-#    sys.stdout.flush()
+print("Sensor warming up, please wait...")
+def crude_progress_bar():
+    sys.stdout.write('.')
+    sys.stdout.flush()
 
-#sgp30.start_measurement(crude_progress_bar)
-#sys.stdout.write('\n')
+sgp30.start_measurement(crude_progress_bar)
+sys.stdout.write('\n')
 
 2500*500/1000/60
 
